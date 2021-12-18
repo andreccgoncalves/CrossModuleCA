@@ -27,11 +27,11 @@ public class Matrix2by2 implements Matrix2by2Interface {
     //Constructor
     /**
      * This constructor will run my initial method every time an object of this
-     * class is created / instantiated
+     * class is created/instantiated
      */
     public Matrix2by2() {
         
-        // My contructor will run this object first which will ask the users for inputs.
+        // My constructor will run this object first which will ask the users for inputs.
         m.Menu();
 
     }
@@ -248,7 +248,7 @@ public class Matrix2by2 implements Matrix2by2Interface {
     @Override
     public void readFinalResult() {
 
-        //This method is a little bit confusing , but it is just because we worked with many strings and visual structures.
+        //This method is a little bit confusing, but it is just because we worked with many strings and visual structures.
         //This code will not only make calculations but show the user the most important and final step of the calculation.
         System.out.println("=============== Final Result formula. ======================");
         System.out.println("X = ( A^-1 . B ). 1/det|A| ");
